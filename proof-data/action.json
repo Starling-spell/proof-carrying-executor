@@ -1,0 +1,2 @@
+{"adapter":"0x67443F8eCf7c084B7336F5dE758e54Bcea658e00","operation":"PURCHASE_RESEARCH","target":"public-market-report","parameters":{"recipient":"research-desk","report":"weekly-market-structure"},"nonce":1,"budget_required":250,"rollback_present":true}
+

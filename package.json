@@ -1,0 +1,2 @@
+{"name":"proof-carrying-executor","version":"1.0.0","private":true,"type":"module","scripts":{"test":"node tests/invariants.mjs","deploy":"tsx scripts/deploy.ts","proof-success":"tsx scripts/proof-success.ts","proof-recovery":"tsx scripts/proof-recovery.ts","proof-drift":"tsx scripts/proof-drift.ts","proof-replay":"tsx scripts/proof-replay.ts"},"dependencies":{"genlayer-js":"1.1.8"},"devDependencies":{"@types/node":"25.9.3","tsx":"4.19.2","typescript":"5.9.3"}}
+

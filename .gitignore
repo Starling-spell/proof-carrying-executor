@@ -1,0 +1,6 @@
+node_modules/
+.env
+deployment.json
+proofs.json
+*.key
+

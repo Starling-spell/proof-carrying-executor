@@ -1,0 +1,2 @@
+{"agent":"proof-carrying-demo-agent","role":"research procurement","capabilities":["purchase_public_research"],"forbidden":["trading","leverage","secret_access"]}
+
