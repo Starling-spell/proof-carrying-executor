@@ -1,0 +1,2 @@
+{"adapter":"0x72843B3D8c30E84ACE936a54a7Eb7da35Ff885C5","operation":"LEVERAGED_TRADE","target":"speculative-market","parameters":{"leverage":20,"asset":"BTC"},"nonce":2,"budget_required":100,"rollback_present":false}
+

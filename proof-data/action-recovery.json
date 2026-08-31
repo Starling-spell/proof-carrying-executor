@@ -1,0 +1,2 @@
+{"adapter":"0x72843B3D8c30E84ACE936a54a7Eb7da35Ff885C5","operation":"PURCHASE_RESEARCH","target":"public-market-report","parameters":{"recipient":"research-desk","report":"risk-controls"},"nonce":2,"budget_required":200,"rollback_present":true}
+
