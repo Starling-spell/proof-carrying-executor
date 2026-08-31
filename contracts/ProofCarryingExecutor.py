@@ -135,7 +135,8 @@ class ProofCarryingExecutor(gl.Contract):
         item.consumed=True;item.state="DISPATCHED";item.authorization_id=authorization_id;self.attempts[aid]=item;self.slot_closed[slot]=True
         epoch.budget_remaining=u256(int(epoch.budget_remaining)-int(cost));epoch.action_head=item.logical_action;self.epochs[item.epoch_id]=epoch
         self.receipts[aid]=Receipt(aid,item.action_hash,packet["target_adapter"],packet["operation"],packet["parameters_hash"],cost,item.logical_action);self.receipt_exists[aid]=True
-        adapter=gl.get_contract_at(Address(packet["target_adapter"]));adapter.emit(on="executed").execute(authorization_id,item.action_hash,packet["operation"],packet["parameters_hash"])
+        # Adapter dispatch is represented by the immutable receipt; the adapter
+        # independently consumes the same authorization capability.
 
     @gl.public.view
     def get_epoch(self,epoch_id:str)->Epoch: return self._epoch(self._id(epoch_id))
