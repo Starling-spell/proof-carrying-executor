@@ -3,4 +3,5 @@ node_modules/
 deployment.json
 proofs.json
 *.key
-
+__pycache__/
+*.pyc
